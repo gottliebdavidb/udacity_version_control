@@ -1,4 +1,9 @@
 When would you want to use a remote repository rather than keeping all your work
 local?
 
-   
+   so other people can see it. also so you dont lose it. the whole point of github is ot share resources. 
+  
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+   you may be making changes that fuck your program up. additionally, you my nnot end up with commits at logical intervals. again,
+   using git for version control seems to center around logic and discretion, and auto-pulling would go against that. 
