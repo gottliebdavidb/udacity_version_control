@@ -1,9 +1,24 @@
 When would you want to use a remote repository rather than keeping all your work
 local?
 
-   so other people can see it. also so you dont lose it. the whole point of github is ot share resources. 
-  
-Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+   so other people can see it. also so you dont lose it. the whole point of
+   github is ot share resources.
 
-   you may be making changes that fuck your program up. additionally, you my nnot end up with commits at logical intervals. again,
-   using git for version control seems to center around logic and discretion, and auto-pulling would go against that. 
+Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+
+   you may be making changes that fuck your program up. additionally, you my
+   nnot end up with commits at logical intervals. again,
+   using git for version control seems to center around logic and discretion,
+   and auto-pulling would go against that.
+
+Describe the differences between forks, clones, and branches. When would you
+use one instead of another?
+
+   forks are you branching off from another persons repository on github. llike
+   any branch, what you do continues from their shit, but it does not affect
+   their shit. only yours. however, all the commits are there. clones are
+   duplicates containing all the commit history. and can be on github or your
+   computer. brahcnes are you moving in a different direction from your last
+   commit on your own repository, but at the same time not altering the master
+   because you're playing around or creating another version that should exist. 
