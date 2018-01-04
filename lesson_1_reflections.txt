@@ -1,0 +1,49 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    you dont have to think about everything. you just see
+    which lines were changed, so you only have to inspect those
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    it allows you to inspect what may have gone wrong. you can see each iteration
+    and you will know whether or not individual changes make the code break
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    savig at logical places. you can see what was not working and what currently
+    is. but you could forget or use bad judgment.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    because with some things, especially web development, there are multiple
+    files that interact. if you change shit in one, you may have to change
+    shit in another. savign everything at each commit means you dont have
+    to do that manually and you dont have to worry about forgetting. it makes
+    sure that your files will interact well after each save
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+    you go to the directory you need, type git log. that shows you all the
+    changes made, with the commit ids. then you find the commits you're
+    looking for. you do git diff old version, new version. if you enabled
+    color, green plusses are additions. red minuses are deletions.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    You can make more ballsy changes, because you know that you can always
+    go back and inspect each commit to see where the break occured.that means
+    if you fucked it up, it's easy to find and fix.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    My frist use of git will be the machine learning course. After that Ill
+    use it for courses and projects as I learn machine learning, AI, python,
+    penetration testing, and whatever else. also probably for building my
+    security systems, servers, and alexas. 
