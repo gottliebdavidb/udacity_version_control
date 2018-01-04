@@ -1,7 +1,7 @@
 What happens when you initialize a repository? Why do you need to do it?
 
 	You create a directory containing metadata for whatever it is you're doing.
-	No commits are created. It's like making a folder you can put shit in. 
+	No commits are created. It's like making a folder you can put shit in.
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
@@ -13,13 +13,43 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+	I think I said the same shit up top. You can compare thew WD tot he staging
+	area. You can also compare the staging area to the commits in existence
+	already. This lets you make sure you're doing exactly what you want to do.
+	Git is like desksite and redline combined.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	Git is helpful in general for saving past and each subsequent version of a
+	project. Branches are helpful if you want to produce different versions of
+	the project either as standalone products, or as experiments to see which
+	one you want to go with ultimately.
+
 How do the diagrams help you visualize the branch structure?
+
+	some branches are unreachable, especially if they branch off from a commit
+	in the middle of a branch, but that branch continues on. Even the sentence
+	I just wrote isnt entirely clear, which is why the diagrams are helpful, bc
+	you can see those branches that continue, those that split off, and those
+	that go nowhere
+
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+	merging two branches means that the final commit will have the changes
+	made to both branches. We show the diagram the way we do because it makes
+	sense. I guess a better answer is it shows at which point in the seeries
+	of commits the branches merge, and makes it easier to understand what is
+	included and what isnt.
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+	if there are two branches edited by two people, and both people edited The
+	SAME LINES OF CODE in their respective branches, it would be difficult to
+	merge. An automatic merge may result in some sort of error, breaking the
+	code. Additionally, an automatic merge would be difficult for git to do bc
+	it wouldnt know what to include or exclude, which is why git gives us an
+	alert, instead of just merging it when there is a conflict. 
